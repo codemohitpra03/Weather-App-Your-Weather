@@ -1,0 +1,12 @@
+.error h1{
+    color: rgb(46, 23, 174);
+}
+
+.error div{
+    color:blue;
+    width: 10%;
+    border: 2px solid blue;
+    padding: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+}

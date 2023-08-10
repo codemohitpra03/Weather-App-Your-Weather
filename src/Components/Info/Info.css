@@ -1,0 +1,176 @@
+.weather-wrapper{
+    display: grid;
+    grid-template-rows: 100px 1fr;
+}
+
+.header{
+    margin: 1%;
+    padding: 1%;
+    color: rgb(133, 133, 133);
+    display: flex;
+}
+
+.top{
+    font-weight: 500;
+    font-size: xx-large;
+    color: black;
+}
+
+
+.time-of-day img{
+   width: 12%;
+   
+}
+
+.temperature{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.temperature img{
+    width: 25%;
+}
+.temperature span{
+    font-size: x-large;
+    color: rgb(72, 67, 67);
+}
+
+.work-area{
+    
+    display: grid;
+    margin-top: 3%;
+}
+
+.work-area h4{
+    margin: 1%;
+    padding: 1%;
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    font-weight: 400;
+}
+
+.featured{
+    display: grid;
+    grid-template-rows: 100px 100px;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.features{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(232, 234, 245);
+    border-radius: 15px;
+}
+
+#wind{
+    width: 20%;
+}
+
+.details span{
+    color: grey;
+    font-size: small;
+}
+
+.details div{
+    font-weight: 500;
+    font-size: xx-large;
+}
+
+#humidity{
+    width: 25%;
+}
+
+#uv{
+    width: 40%;
+}
+#pressure{
+    width: 30%;
+}
+#sunset{
+    width: 20%;
+}
+#sunrise{
+    width: 20%;
+}
+#visibility{
+    width: 20%;
+}
+
+#precipitation{
+    width: 25%;
+}
+
+.today{
+    margin: 3% 3% 0 3%;
+}
+
+#today-header{
+    font-weight: 500;
+    font-size: xx-large;
+}
+
+.today-inner{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2%;
+}
+
+.today-item{
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F0F8FF;
+    border-radius: 10px;
+}
+
+.today-item h3{
+    margin: 0;
+}
+
+hr {
+    border: 0.5px solid rgb(170, 170, 170);
+    width: 97%;
+  }
+
+.weekly{
+    margin-top: 5%;
+}
+.weekly-item h3{
+    margin: 0;
+}
+
+.weekly-item div{
+    display: flex;
+    padding: 0 5px 0 5px;
+}
+
+#weekly-header{
+    font-weight: 400;
+    font-size: xx-large;
+    margin: 40px;
+}
+
+.weekly-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
+}
+.weekly-item{
+    padding: 10px;
+    margin: 5px;
+    width: 130px;
+    height: 130px;
+    background-color: #AFDBF5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+}
